@@ -1,0 +1,62 @@
+*	 {
+	box-sizing: border-box;
+}
+
+/*@font-face to load 8bit font*/
+@font-face {
+font-family: "pressstart2p";
+src: url("css/fonts/pressstart2p.ttf") format('truetype');
+
+} 
+
+/* Start Screen*/
+body {
+	font-family: "pressstart2p", Arial, sans-serif;
+    background-color: #222222;
+    color: #2672c8;
+    text-align: center;
+    padding-top: 5%;
+    width: 100%;
+    max-width: 1380px;
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+    
+audio {
+	text-decoration: none:;
+}
+ 
+#first { 
+font-family: "pressstart2p", Arial, sans-serif;
+font-size: 90px
+
+ }
+
+ a {
+ 	color: #ffffff;
+ 	text-decoration: none;
+ 	margin: 0 0 30px 0;
+    text-shadow: 3px 2px #2672c8;
+
+ }
+
+ a: hover {
+    color: green;
+
+ }
+
+
+
+ footer {
+	color: #2672c8 ;
+	margin: 0 auto;
+	clear: both;
+	margin-bottom: 20%;
+	padding: 20%;
+	  
+	 
+		
+ }
