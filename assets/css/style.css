@@ -5,7 +5,7 @@
 /*@font-face to load 8bit font*/
 @font-face {
 font-family: "pressstart2p";
-src: url("css/fonts/pressstart2p.ttf") format('truetype');
+src: url("../fonts/pressstart2p.ttf") format('truetype');
 
 } 
 
@@ -14,8 +14,9 @@ body {
 	font-family: "pressstart2p", Arial, sans-serif;
     background-color: #222222;
     color: #2672c8;
+    text-shadow: 5px 1px #ffffff;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 10%;
     width: 100%;
     max-width: 1380px;
     position:fixed;
@@ -35,6 +36,10 @@ font-size: 90px
 
  }
 
+ nav {
+    padding-top: 5%
+}
+
  a {
  	color: #ffffff;
  	text-decoration: none;
@@ -52,6 +57,7 @@ font-size: 90px
 
  footer {
 	color: #2672c8 ;
+    text-shadow: 2px 0.8px #ffffff;
 	margin: 0 auto;
 	clear: both;
 	margin-bottom: 20%;

@@ -1,0 +1,183 @@
+*	 {
+	box-sizing: border-box;
+}
+
+/*@font-face to load 8bit font*/
+@font-face {
+font-family: "pressstart2p";
+src: url("../fonts/pressstart2p.ttf") format('truetype');
+
+} 
+
+li {
+    font-family: "pressstart2p", Arial, sans-serif;
+    color: #2672c8;
+    text-shadow: 1px 0.4px #ffffff;
+}
+
+/*background for play screen*/
+#screen {
+    font-family: "pressstart2p", Arial, sans-serif;
+    background-color: #222222;
+}
+
+/* gameplay letters*/
+
+#letter {
+    text-align: center;
+
+}
+
+
+.wrappper {
+  width: 100%;
+  margin: 0 auto;
+}
+.wrappper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*hangman title*/
+#hang {
+    font-family: "pressstart2p", Arial, sans-serif;
+    color: #2672c8;
+    text-shadow: 5px 1px #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 5%; 
+
+}
+
+/*instructions*/
+#Instructions {
+    font-family: "pressstart2p", Arial, sans-serif;
+    color: #2672c8;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 3%; 
+
+}
+
+h2 {
+    font-family: "pressstart2p", Arial, sans-serif;
+    color: #ffffff;  
+    font-size: 12px;
+    text-align: center;
+    padding-top: 3%; 
+    
+}
+
+/*letters*/
+#alphabet {
+  margin: 15px auto;
+  padding: 1%;
+  max-width: 100%;
+}
+#alphabet {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#alphabet li {
+    
+  float: left;
+  font-family: "pressstart2p";
+
+  margin: 0 10px 10px 0;
+  width: 40px;
+  height: 35px;
+  padding-top: 10px;
+  background: #ffffff;
+  color: #2672c8;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: solid 1px #ffffff;
+}
+
+#alphabet li:hover {
+  background: #5ce430;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+
+}
+
+/*letter dashed-lines & gameplay screen*/
+  #my-word {
+  margin: 0;
+  display: block;
+  padding-top: 5%;
+  text-align: center;
+  display: block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.6em;
+}
+
+.active {
+  opacity: 0.1;
+  filter: alpha(opacity=60);/* For IE8 and earlier */
+  cursor: default;
+}
+.active:hover {
+  
+  opacity: 0.1;
+  filter: alpha(opacity=60);/* For IE8 and earlier */
+ 
+}
+
+#mylives {
+    font-family: "pressstart2p", Arial, sans-serif;
+    color: #2672c8;
+    text-shadow: 3px 1px #ffffff; 
+    font-size: 30px;
+    padding-top: 1%;
+    text-align: center;
+ 
+}
+
+#guess {
+    font-family: "pressstart2p"; 
+    font-size: 30px;
+
+}
+
+/*gameplay letters*/
+button {
+  border-radius: 5px;
+  background: #ffffff;
+  color: #006699;
+  border: solid 1px #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}
+
+/*play again button*/
+button:hover {
+  background: #5ce430;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+}
+
+#reset {
+    text-align: center;
+    font-family: "pressstart2p";
+    margin-left: 670px
+     
+}
+
+
