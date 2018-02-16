@@ -4,20 +4,20 @@
 
 /*@font-face to load 8bit font*/
 @font-face {
-font-family: "PressStart2P.ttf";
+font-family: "PressStart2P";
 src: url("../fonts/PressStart2P.ttf") format('truetype');
 
 } 
 
 li {
-    font-family: "PressStart2P.ttf", Arial, sans-serif;
+    font-family: "PressStart2P", Arial, sans-serif;
     color: #2672c8;
     text-shadow: 1px 0.4px #ffffff;
 }
 
 /*background for play screen*/
 #screen {
-    font-family: "PressStart2P.ttf", Arial, sans-serif;
+    font-family: "PressStart2P", Arial, sans-serif;
     background-color: #222222;
 }
 
@@ -41,7 +41,7 @@ li {
 
 /*hangman title*/
 #hang {
-    font-family: "PressStart2P.ttf", Arial, sans-serif;
+    font-family: "PressStart2P", Arial, sans-serif;
     color: #2672c8;
     text-shadow: 5px 1px #ffffff;
     font-size: 50px;
@@ -52,7 +52,7 @@ li {
 
 /*instructions*/
 #Instructions {
-    font-family: "PressStart2P.ttf", Arial, sans-serif;
+    font-family: "PressStart2P", Arial, sans-serif;
     color: #2672c8;
     font-size: 20px;
     text-align: center;
@@ -61,7 +61,7 @@ li {
 }
 
 h2 {
-    font-family: "PressStart2P.ttf", Arial, sans-serif;
+    font-family: "PressStart2P", Arial, sans-serif;
     color: #ffffff;  
     font-size: 12px;
     text-align: center;
@@ -84,7 +84,7 @@ h2 {
 #alphabet li {
     
   float: left;
-  font-family: "PressStart2P.ttf";
+  font-family: "PressStart2P";
 
   margin: 0 10px 10px 0;
   width: 40px;
@@ -136,7 +136,7 @@ h2 {
 }
 
 #mylives {
-    font-family: "PressStart2P.ttf", Arial, sans-serif;
+    font-family: "PressStart2P", Arial, sans-serif;
     color: #2672c8;
     text-shadow: 3px 1px #ffffff; 
     font-size: 30px;
@@ -146,7 +146,7 @@ h2 {
 }
 
 #guess {
-    font-family: "PressStart2P.ttf"; 
+    font-family: "PressStart2P"; 
     font-size: 30px;
 
 }
@@ -175,7 +175,7 @@ button:hover {
 
 #reset {
     text-align: center;
-    font-family: "PressStart2P.ttf";
+    font-family: "PressStart2P";
     margin-left: 670px
      
 }
